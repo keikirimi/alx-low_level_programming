@@ -2,18 +2,19 @@
 #include <stdlib.h>
 /**
  * main - returns alphabets
- *
+ *Description: Geta random it with 5
  * Return: Always 0 (Success)
  */
 int main(void)
 {
-	int ch = 'a';
+	char c = 'a';
 
-	while (ch <= 'z')
+	while (c <= 'z')
 	{
-		putchar(ch);
-		ch++;
+		putchar(c);
+		c++;
 	}
+
 	putchar('\n');
 	return (0);
 }	
